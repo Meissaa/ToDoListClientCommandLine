@@ -15,7 +15,7 @@ namespace ToDoList.Clients.ConsoleCommander
     {
  
         private static readonly ILog _log = LogManager.GetLogger(typeof(Program).FullName);
-        static WebApiClient _webApiClient = new WebApiClient("http://localhost:49981/api/v1");
+        static WebApiClient _webApiClient = new WebApiClient("http://localhost/api/v1");
         static void Main(string[] args)
         {
             log4net.Config.BasicConfigurator.Configure();
@@ -23,7 +23,7 @@ namespace ToDoList.Clients.ConsoleCommander
             //_log.Info("info");
            // TestMethod();
 #if TEST
-            //TestAllCommands("http://localhost:49981/api/v1");
+            //TestAllCommands("http://localhost/api/v1");
             TestClient();
 #else
             ExecuteCommand(args);
