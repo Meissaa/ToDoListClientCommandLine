@@ -3,7 +3,7 @@
 This sample contains a solution file that contains three projects: 
 
 * ToDoList.WebApi.Client
-* ToDoList.WebApp
+* ToDoList.WebApi
 * ToDoList.Client.ConsoleCommander
 
 ToDoList.Client.ConsoleCommander is a simple and very fast task manager for the command line. 
